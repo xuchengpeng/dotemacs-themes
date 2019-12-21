@@ -231,7 +231,7 @@ determine the exact padding."
    (markdown-url-face :foreground red)
    (markdown-pre-face  :foreground green)
    (markdown-link-face :inherit 'bold :foreground cyan)
-   (markdown-code-face :background (dotemacs-lighten base2 0.045))
+   ((markdown-code-face &override) :background (dotemacs-lighten base2 0.045))
 
    ;; org-mode
    ((outline-1 &override) :foreground yellow)
