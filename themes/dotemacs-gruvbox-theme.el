@@ -239,7 +239,7 @@ determine the exact padding."
    ((outline-3 &override) :foreground green)
    (org-ellipsis :underline nil :background base2 :foreground orange)
    (org-tag :foreground yellow :bold nil)
-   (org-quote :inherit 'italic :foreground base7 :background org-quote)
+   ((org-quote &override) :inherit 'italic :foreground base7 :background org-quote)
    (org-todo :foreground yellow :bold 'inherit)
    (org-list-dt :foreground yellow))
 
