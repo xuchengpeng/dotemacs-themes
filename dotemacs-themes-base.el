@@ -1284,6 +1284,8 @@
     (jdee-db-active-breakpoint-face-colors `(cons ,(dotemacs-color 'base0) ,(dotemacs-color 'highlight)))
     
     (objed-cursor-color (dotemacs-color 'red))
+    
+    (pdf-view-midnight-colors `(cons ,(dotemacs-color 'bg) ,(dotemacs-color 'fg)))
 
     (vc-annotate-color-map
      `(list (cons 20  ,(dotemacs-color 'green))
