@@ -1285,7 +1285,7 @@
     
     (objed-cursor-color (dotemacs-color 'red))
     
-    (pdf-view-midnight-colors `(cons ,(dotemacs-color 'bg) ,(dotemacs-color 'fg)))
+    (pdf-view-midnight-colors `(cons ,(dotemacs-color 'fg) ,(dotemacs-color 'bg)))
 
     (vc-annotate-color-map
      `(list (cons 20  ,(dotemacs-color 'green))
